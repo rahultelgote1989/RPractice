@@ -8,7 +8,7 @@ Sex <- c("MALE", "MALE", "MALE", "FEMALE")
 Date.Of.Death <- c("2015-05-10", "1849-10-07", "1892-03-26","1817-07-18") 
 
 writers_df <- data.frame(Died.At, Writer.At, First.Name, Second.Name, Sex, Date.Of.Death)
-
+writers_df
 ## to know about your dataframe in detail
 str(writers_df)
 
@@ -42,7 +42,18 @@ length(writers_df) # only gives number of rows
 writers_df$Surname
 writers_df['Name']
 
-writers_df[1:3]       #will give columns from 1st to 3rd
-writers_df[1:3, 2]    #will give columns from 1st to 3rd for 2nd row
+writers_df[1:3]       #will give rows from 1st to 3rd
+writers_df[1:3, 2]    #will give rows from 1st to 3rd for 2nd column
+writers_df[,3]        #will give all values of third column
+writers_df[2, ]       #will give all values of 2nd row
 
+#get value of the specific position from a column
+writers_df$Name[4]
+writers_df$Age.At.Death[2]
 
+## change the values of the dataframes
+writers_df$Death <- writers_df$Age.At.Death-1
+writers_df[, 1] <- writers_df$Age.At.Death-1
+
+writers_df[2,3] = "JAne"
+writers_df[2,6] = "1989-04-22"
