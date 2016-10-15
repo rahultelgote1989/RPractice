@@ -3,4 +3,7 @@ Package: Dplyr
 1. http://seananderson.ca/2014/09/13/dplyr-intro.html
 2. http://genomicsclass.github.io/book/pages/dplyr_tutorial.html
 3. https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
-4. 
+4. http://genomicsclass.github.io/book/pages/dplyr_tutorial.html
+5. http://seananderson.ca/2014/09/13/dplyr-intro.html
+6. https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
+7. 
