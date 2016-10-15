@@ -7,3 +7,4 @@ Package: Dplyr
 5. http://seananderson.ca/2014/09/13/dplyr-intro.html
 6. https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
 7. 
+
