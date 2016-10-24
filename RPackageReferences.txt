@@ -8,3 +8,8 @@ Package: Dplyr
 6. https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
 7. 
 
+Apply Family:
+1. https://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/
+2. http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega
+3. https://www.r-bloggers.com/r-tutorial-on-the-apply-family-of-functions/
+4. http://www.ats.ucla.edu/stat/r/library/advanced_function_r.htm
