@@ -38,3 +38,6 @@ Package: Dplyr
 ## reshape2 (data restructuring)
 
 ## randomForest (random forest predictive models)
+
+
+## Packages: foreach, doParallel
