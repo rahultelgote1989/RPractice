@@ -1,2 +1,3 @@
 ## String manipulation in R:
 1. http://www.endmemo.com/program/R/stringfunc.php
+2. http://r4ds.had.co.nz/strings.html
