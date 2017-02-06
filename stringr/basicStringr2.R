@@ -44,3 +44,19 @@ str_wrap(juna_string, width = 40, indent = 2)
 ## Syntax: str_trim(string, side=c("both", "left", "right"))
 str_trim("  String with trailing and leading white space\t")
 str_trim("\n\nString with trailing and leading white space\n\n")
+
+
+## Basic Matches
+x <- c("apple", "banana", "pear")
+#str_view(x, "an")
+
+## Detect matches
+x <- c("apple", "banana", "pear")
+str_detect(x, "e")
+
+sum(str_detect(x, "^t"))
+str_count("ababababaab", "aba")
+
+colours <- c("red", "orange", "yellow", "green", "blue", "purple")
+colour_match = str_c(colours, collapse = "|")
+colour_match
